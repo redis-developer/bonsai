@@ -6,6 +6,7 @@
     "type": "Full App", //Can be "Building Block" or "Full App"
     "contributed_by": "Community", // Can be "Redis Labs" or "Community" or "Partner"
     "repo_url": "https://github.com/bonsai-dbrms", //This is the Gitub Repo's URL.
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/rule-engine/master/images/app_preview_image.png",
     "download_url": "https://github.com/bonsai-dbrms/rule-engine/archive/refs/heads/master.zip",//This is a direct link to the Github's download button so people can download it directly from the Marketplace
     "hosted_url": "https://bonsai-frontend.vercel.app/", //The URL of the app. if you are hosting this app somewhere
     "quick_deploy": "true", //"frue" if the project has Heroku, Vercel, Google deploy buttons
