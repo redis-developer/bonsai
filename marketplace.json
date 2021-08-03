@@ -19,8 +19,8 @@
         }],
     "language": ["JavaScript", "HTML", "CSS", "Python"], 
     "redis_commands": ["JSON.SET", "TS.ADD", "JSON.GET"], 
-    "redis_features": ["caching", "json", "timeseries"],
-    "redis_modules": ["RediJSON", "RedisTimeseries"], 
+    "redis_features": ["Caching", "JSON", "Timeseries"],
+    "redis_modules": ["RedisJSON", "RedisTimeseries"], 
     "app_image_urls": ["https://i.imgur.com/ximdta3.png","https://i.imgur.com/FelEuO6.png", "https://i.imgur.com/KPcqMh9.png" , "https://i.imgur.com/8KYAWFu.png", "https://i.imgur.com/F0Htrgd.png"
     ], 
     "youtube_url": "", 
