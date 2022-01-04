@@ -6,7 +6,6 @@
 For every business, there are a set of rules which define all actions and behaviours. Products which leverage technology for its distribution and usage may contain millions of rules, which are usually tightly coupled with multiple if-else statements within code or configuration files across services
 
   
-
 Bonsai is a platform to store, evaluate and analyse all your business decisions/rules at a single place.
 
   
@@ -135,19 +134,19 @@ JSON.GET namespace_name path .rule_id
 ## Features
 
 #### Rule creation 
- ![CREATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/bonsai-dbrms/rule-engine/blob/master/README.md](gifs/creation.gif)  
+ ![CREATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/creation.gif)  
 A very easy to use USER EXPERIENCE to add inputs and configure outputs as seen in the gif above.
 
 #### Rule Visualization
-![VISUALIZATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/bonsai-dbrms/rule-engine/blob/master/README.md](gifs/visualization.gif)  
+![VISUALIZATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/visualization.gif)  
 Once rule is created you can easily visualize in the form of a flow chart which makes it even easier to debug for business teams `which is one of the main disadvantages of a traditional rule engine`
 
 #### Rule Evaluation
-![VISUALIZATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/bonsai-dbrms/rule-engine/blob/master/README.md](gifs/evaluation.gif)  
+![VISUALIZATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/evaluation.gif)  
 The code uses pattern matching algorithms to see which rule fits the entity best and also emits the order in which rules were executed (in other words chained rule execution is also possible)
 
 #### Rule Analysis
-![ANALYSIS_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/bonsai-dbrms/rule-engine/blob/master/README.md](gifs/analysis.gif)  
+![ANALYSIS_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/analysis.gif)  
 We have used `redis Timeseries database` to publish basic telemetery of rule excution and evaluation processes to give the business users capabilities to make data driven decisions on the basis of performance of rules in their namespace.
 
  #### Command used to expose time series datas :
