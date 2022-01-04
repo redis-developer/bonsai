@@ -14,7 +14,7 @@
     "redis_modules": ["RedisJSON", "RedisTimeseries"], 
     "app_image_urls": ["https://i.imgur.com/ximdta3.png","https://i.imgur.com/FelEuO6.png", "https://i.imgur.com/KPcqMh9.png" , "https://i.imgur.com/8KYAWFu.png", "https://i.imgur.com/F0Htrgd.png"
     ], 
-    "youtube_url": "", 
+    "youtube_url": "https://www.youtube.com/watch?v=GuAkzNbNvRE", 
     "special_tags": ["Hackathon"], 
     "verticals": ["Financial Services"], 
     "markdown": "https://raw.githubusercontent.com/redis-developer/bonsai/master/README.md"
