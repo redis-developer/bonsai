@@ -1,21 +1,13 @@
 {
     "app_name": "Bonsai",
     "description": "Business Intelligence Platform", 
-    "rank": "421", 
     "type": "Full App", 
     "contributed_by": "Community",
-    "repo_url": "https://github.com/bonsai-dbrms", 
-    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/rule-engine/master/images/app_preview_image.png",
-    "download_url": "https://github.com/bonsai-dbrms/rule-engine/archive/refs/heads/master.zip",
-    "hosted_url": "https://bonsai-frontend.vercel.app/", 
+    "repo_url": "https://github.com/bonsai", 
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/bonsai/master/images/app_preview_image.png",
+    "download_url": "https://github.com/bonsai/rule-engine/archive/refs/heads/master.zip",
     "quick_deploy": "false", 
-    "deploy_buttons": [
-     {
-            "heroku": "https://heroku.com/deploy?template=https://github.com/bonsai-dbrms/rule-engine"
-        },
-        {
-            "vercel": "https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fbonsai-dbrms%2Ffrontend"
-        }],
+    "deploy_buttons": [],
     "language": ["JavaScript", "HTML", "CSS", "Python"], 
     "redis_commands": ["JSON.SET", "TS.ADD", "JSON.GET"], 
     "redis_features": ["Caching", "JSON", "Timeseries"],
@@ -24,6 +16,6 @@
     ], 
     "youtube_url": "", 
     "special_tags": ["Hackathon"], 
-    "verticals": ["Financial","Retail","Technology", "Healthcare", "Tourism", "Manufacturing"], 
-    "markdown": "https://raw.githubusercontent.com/bonsai-dbrms/rule-engine/master/README.md", 
+    "verticals": ["Financial Services], 
+    "markdown": "https://raw.githubusercontent.com/redis-developer/bonsai/master/README.md", 
 }
