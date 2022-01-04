@@ -1,6 +1,6 @@
 {
     "app_name": "Bonsai",
-    "description": "Business Intelligence Platform", 
+    "description": "Building a Distributed Business Rule Management and Intelligence Platform using Redis", 
     "type": "Full App", 
     "contributed_by": "Community",
     "repo_url": "https://github.com/bonsai", 
