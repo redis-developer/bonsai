@@ -45,14 +45,14 @@ The top most logical seperation of rules are on the basis of namespace. Namespac
  }
  ```
  Here namespace is : tax_system .
- #### Command used to create namespace is :
+ ### Command used to create namespace is :
  ``````
 JSON.SET namespace_name . {}
 ``````
-#### Entity
+### Entity
 Each Entity means the input into a namespace which inturn will give an output after  evaluation of the rules present in that namespace.
-#### Rules
-##### sub keywords
+### Rules
+#### sub keywords
 - Predicates: This means the input conditions for your rules.
 - Results: This means the output conditions for your rules.
 - Operators: We have 7 operators :\
@@ -116,16 +116,16 @@ Every rule gets saved into a namespace via the following format .
 }
 ```
 Here namespace is : `loyalty_system` and rule_id is : `123456`.
- #### Command used to update rule in namespace is :
+ ### Command used to update rule in namespace is :
  ``````
 JSON.SET namespace_name .rule_id rule_object
 ``````
- #### Command used to get all rules in namespace is :
+ ### Command used to get all rules in namespace is :
  ``````
 JSON.GET namespace_name 
 ``````
 
- #### Command used to get one rules in namespace  by rule_id is :
+ ### Command used to get one rules in namespace  by rule_id is :
  ``````
 JSON.GET namespace_name path .rule_id
 ``````
@@ -133,22 +133,22 @@ JSON.GET namespace_name path .rule_id
 
 ## Features
 
-#### Rule creation 
+### Rule creation 
  ![CREATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/creation.gif)  
 A very easy to use USER EXPERIENCE to add inputs and configure outputs as seen in the gif above.
 
-#### Rule Visualization
+### Rule Visualization
 ![VISUALIZATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/visualization.gif)  
 Once rule is created you can easily visualize in the form of a flow chart which makes it even easier to debug for business teams `which is one of the main disadvantages of a traditional rule engine`
 
-#### Rule Evaluation
+### Rule Evaluation
 ![VISUALIZATION_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/evaluation.gif)  
 The code uses pattern matching algorithms to see which rule fits the entity best and also emits the order in which rules were executed (in other words chained rule execution is also possible)
 
-#### Rule Analysis
+### Rule Analysis
 ![ANALYSIS_GIF_COULD_NOT_LOAD_PLEASE_VISIT_GITHUB_LINK https://github.com/redis-developer/bonsai/blob/master/README.md](gifs/analysis.gif)  
 We have used `redis Timeseries database` to publish basic telemetery of rule excution and evaluation processes to give the business users capabilities to make data driven decisions on the basis of performance of rules in their namespace.
 
- #### Command used to expose time series datas :
+### Command used to expose time series datas :
  ``````
 TS.ADD ruleId * 1
