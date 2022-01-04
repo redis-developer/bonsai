@@ -4,7 +4,7 @@
     "type": "Full App", 
     "contributed_by": "Community",
     "repo_url": "https://github.com/bonsai", 
-    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/bonsai/master/images/app_preview_image.png",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/bonsai/master/app_preview_image.png",
     "download_url": "https://github.com/bonsai/rule-engine/archive/refs/heads/master.zip",
     "quick_deploy": "false", 
     "deploy_buttons": [],
